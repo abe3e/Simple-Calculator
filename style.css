@@ -1,0 +1,97 @@
+.calcBody {
+  width: 350px;
+    height: 590px;
+    background: linear-gradient(#ffc8dd , #bde7fe);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid rgba(194, 218, 252, 0.795);
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.display{
+  background-color: #fff4f8;
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  width: 280px;
+  font-size: 30px;
+  color: #cdb4db;
+  margin: 0 14px 10px 14px;
+  padding: 10px 12px;
+}
+
+.buttonPad{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons{
+  margin: 10px;
+  display: flex;
+}
+
+button {
+  margin: 5px 7px;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  color:#ffffff;
+  border-radius: 30%;
+  border:none;
+  background-color: #dbb4cd;
+  box-shadow: 0px 5px 7px 0px #b157e68e;
+  transition-duration: 0.2s;
+}
+
+button:hover{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+button:active {
+  box-shadow: 0px 0px;
+}
+
+.operator:hover{
+  box-shadow: 0px 0px 0px 0px #b157e68e;
+}
+
+.number:hover{
+  box-shadow: 0px 0px 0px 0px #b157e68e;
+}
+
+.num0{
+  flex: 1;
+  border-radius: 10px;
+}
+
+.num0:hover{
+  box-shadow: 0px 0px 0px 0px #b157e68e;
+}
+
+#clear {
+  width: 50%;
+  background-color: #ffafcc;
+  box-shadow: 0px 5px 0px 0px #f893b8;
+  color:#fff;
+  border-radius: 10px;
+}
+#clear:hover{
+ box-shadow: 0px 0px 0px 0px #f893b8;
+}
+#equal {
+  width: 50%;
+  border-radius: 10px;
+  background-color: #a2caff;
+  box-shadow: 0px 5px 0px 0px #7694f8;
+}
+#equal:hover {
+box-shadow: 0px 0px 0px 0px #76b9f8;
+}
+
+* {
+  border-radius: 10px;
+  font-family: 'Concert One';
+}
